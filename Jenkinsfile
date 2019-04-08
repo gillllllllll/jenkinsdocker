@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("gillllllllll/musicapp", "-f roles/music/Dockerfile .")
+        app = docker.build("gillll/musicapp", "-f roles/music/Dockerfile .")
     }
 
     stage('Test image') {
